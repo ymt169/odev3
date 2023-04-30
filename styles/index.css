@@ -1,0 +1,252 @@
+.hero-section {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    padding: 2.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.black-side {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+.white-side {
+    display: none;
+    width: 100%;
+    background: white;
+}
+
+.white-side-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.white-abs-1 {
+    display: flex;
+    position: absolute;
+    top: 12rem;
+    left: 12rem;
+    width: 100%;
+}
+
+.white-abs-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.white-side-title {
+    overflow-y: hidden;
+    z-index: 20;
+    color: #F9FAFB;
+    text-transform: uppercase;
+}
+
+.white-side-p {
+    display: flex;
+    position: absolute;
+    top: 12rem;
+    right: 12rem;
+    max-width: 24rem;
+}
+
+.location-button {
+    display: flex;
+    position: relative;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    background-color: #000000;
+    transition-duration: 300ms;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.location-button:hover {
+    background-color: #D5966C;
+}
+
+.location-button-text {
+    margin-right: 1.75rem;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+.art-gallery-section {
+    display: flex;
+    padding: 4rem;
+    margin-top: 6rem;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.location-button-arrow {
+    position: absolute;
+    right: 0;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+}
+
+.hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 24rem;
+}
+
+
+.gallery-title {
+    overflow-y: hidden;
+    margin-top: 1.25rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    display: block;
+    font-size: 36px;
+    list-style: 36px;
+    font-weight: 900;
+}
+
+
+.gallery-part {
+    display: flex;
+    padding: 1.25rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.gallert-part-title {
+    overflow: hidden;
+    color: #ffffff;
+    display: block;
+    font-size: 36px;
+    list-style: 36px;
+    font-weight: 900;
+}
+
+.grid-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.gallery-grid-title {
+    overflow: hidden;
+    color: #ffffff;
+    display: block;
+    font-size: 36px;
+    list-style: 36px;
+    font-weight: 900;
+}
+
+.icon-area {
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    width: 100%;
+    height: 3rem;
+    gap: 1.25rem;
+}
+
+.footer-section {
+    display: flex;
+    padding: 3.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.25rem;
+
+
+}
+
+@media (min-width: 1024px) {
+    .black-side {
+        display: block;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .white-side {
+        display: block;
+    }
+
+    .gallery-grid-title {
+        display: block;
+        font-size: 70px;
+        line-height: 70px;
+        font-weight: 900;
+    }
+
+    .art-gallery-section {
+        flex-direction: row;
+    }
+
+    .text-container {
+        margin-right: 6rem;
+    }
+
+    .gallery-title {
+        display: block;
+        font-size: 70px;
+        line-height: 70px;
+        font-weight: 900;
+    }
+
+    .icon-area {
+        justify-content: center;
+    }
+
+    .gallery-part {
+        flex-direction: row;
+    }
+
+    .gallert-part-title {
+        display: block;
+        font-size: 96px;
+        line-height: 88px;
+        font-weight: 900;
+    }
+
+
+    .footer-section {
+        flex-direction: row;
+    }
+
+
+
+}

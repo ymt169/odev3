@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Big Shoulders Display', cursive;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.bg-white1 {
+    background-color: white !important;
+}
+
+.header-L {
+    display: block;
+    font-size: 70px;
+    line-height: 70px;
+    font-weight: 900;
+}
+
+.header-XL {
+    display: block;
+    font-size: 96px;
+    line-height: 88px;
+    font-weight: 900;
+}
+
+.header-S {
+    display: block;
+    font-size: 36px;
+    list-style: 36px;
+    font-weight: 900;
+}
+
+.text-light {
+    color: #D5966C;
+}
+
+.body-M {
+    font: lighter;
+    font-size: 22px;
+    line-height: 32px;
+    color: #444444;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.body-S {
+    font: lighter;
+    font-size: 18px;
+    line-height: 32px;
+    color: #444444;
+}
+
+.bg-hero {
+    background-color: #151515;
+}
+
+.bg-lightColor {
+    background-color: #D5966C;
+}
+
+.Icon:hover {
+    fill: #D5966C;
+}
+
+.Icon {
+    fill: white;
+    cursor: pointer;
+}
+
+
+.Icon-location:hover {
+    fill: white;
+}
+
+.Icon-location {
+    fill: black;
+    cursor: pointer;
+}
+
+.text-black {
+    color: #151515;
+}
+
+.text-white {
+    color: white !important;
+}

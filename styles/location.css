@@ -1,0 +1,103 @@
+.home-button {
+    display: flex;
+    position: relative;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    background-color: #000000;
+    transition-duration: 300ms;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.home-button:hover {
+    background-color: #D5966C;
+}
+
+.home-button-arrow {
+    position: absolute;
+    right: 0;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+
+}
+
+.home-button-text {
+    margin-right: 1.75rem;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+.location-section {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    width: 100%;
+    height: 100%;
+}
+
+.info-place {
+    width: 100%;
+    display: flex;
+    padding: 0.75rem;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.info-place-title {
+    display: flex;
+    padding-left: 0;
+    padding-right: 0;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+
+.location-footer {
+    display: flex;
+    padding: 3.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.icon-area {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    height: 3rem;
+    gap: 1.25rem;
+}
+
+@media (min-width: 768px) {
+    .location-footer {
+        flex-direction: row;
+    }
+
+    .icon-area {
+        justify-content: center;
+    }
+
+    .info-place {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .info-place-title {
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+    }
+}
